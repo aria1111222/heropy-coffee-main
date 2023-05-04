@@ -294,6 +294,7 @@ header .badges .badge {
   position: absolute;
   top: 40px;
   right: 60px;
+  
 }
 .visual .cup2.image {
   position: absolute;
@@ -305,10 +306,12 @@ header .badges .badge {
   top: 186px;
   right: 412px;
 }
-.visual .spoon {
-  position: absolute;
+.visual .road {
+  width: 1000px;
   bottom: 0;
-  left: 275px;
+  /* right: 275px; */
+  
+ 
 }
 .visual .fade-in {
   opacity: 0;
