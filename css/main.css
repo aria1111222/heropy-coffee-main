@@ -1,6 +1,6 @@
 /*COMMON*/
 body {
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Hi Melody', cursive;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
@@ -143,10 +143,10 @@ header .sub-menu ul.menu li a {
   padding: 11px 16px;
   display: block;
   font-size: 13px;
-  color: #656565;
+  color: tan;
 }
 header .sub-menu ul.menu li a:hover {
-  color: #000;
+  color: thistle;
 }
 header .sub-menu .search {
   position: relative;
@@ -160,14 +160,14 @@ header .sub-menu .search input {
   box-sizing: border-box;
   border-radius: 5px;
   outline: none;
-  background-color: #fff;
+  background-color: paleturquoise;
   color: #777;
   font-size: 12px;
   transition: width .4s;
 }
 header .sub-menu .search input:focus {
   width: 190px;
-  border-color: #EA9926;
+  border-color: olivedrab;
 }
 header .sub-menu .search .material-icons {
   height: 24px;
@@ -194,8 +194,8 @@ header .main-menu .item .item__name {
   font-size: 13px;
 }
 header .main-menu .item:hover .item__name {
-  background-color: #2C2A29;
-  color: #EA9926;
+  background-color: green;
+  color: tomato;
   border-radius: 6px 6px 0 0;
 }
 header .main-menu .item .item__contents {
@@ -208,7 +208,8 @@ header .main-menu .item:hover .item__contents {
   display: block;
 }
 header .main-menu .item .item__contents .contents__menu {
-  background-color: #2C2A29;
+  background-image: url("/images/main_png.jpg");
+  opacity: 20px;
 }
 header .main-menu .item .item__contents .contents__menu > ul {
   padding: 20px 0;
@@ -225,7 +226,7 @@ header .main-menu .item .item__contents .contents__menu > ul > li h4 {
 header .main-menu .item .item__contents .contents__menu > ul > li ul li {
   padding: 5px 0;
   font-size: 12px;
-  color: #999;
+  color: greenyellow;
   cursor: pointer;
 }
 header .main-menu .item .item__contents .contents__menu > ul > li ul li:hover {
@@ -237,7 +238,7 @@ header .main-menu .item .item__contents .contents__texture {
   background-image: url("../images/main_menu_pattern.jpg");
 }
 header .main-menu .item .item__contents .contents__texture h4 {
-  color: #999;
+  color: red;
   font-weight: 900;
 }
 header .main-menu .item .item__contents .contents__texture p {
@@ -299,17 +300,20 @@ header .badges .badge {
 .visual .cup2.image {
   position: absolute;
   bottom: 0;
-  right: 162px;
+  right: 0px;
 }
 .visual .cup2.text {
   position: absolute;
-  top: 186px;
-  right: 412px;
+  top: 450px;
+ 
+  right: 0px;
+  
 }
 .visual .road {
   width: 1000px;
   bottom: 0;
-  /* right: 275px; */
+  right: 275px;
+  left: 2500px;
   
  
 }

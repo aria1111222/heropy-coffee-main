@@ -12,11 +12,11 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 function onYouTubePlayerAPIReady() {
   // <div id="player"></div>
   new YT.Player('player', {
-     videoId: 'MofU4L2DoUs', // 최초 재생할 유튜브 영상 ID
+     videoId: '78e7p8TPIxo', // 최초 재생할 유튜브 영상 ID
     playerVars: {
       autoplay: true, // 자동 재생 유무
       loop: true, // 반복 재생 유무
-      playlist: 'MofU4L2DoUs' // 반복 재생할 유튜브 영상 ID 목록
+      playlist: '78e7p8TPIxo' // 반복 재생할 유튜브 영상 ID 목록
     },
     events: {
       // 영상이 준비되었을 때,
