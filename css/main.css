@@ -114,6 +114,7 @@ header .logo {
   margin: auto;
   transform: rotate(750deg);
 }
+
 header .sub-menu {
   position: absolute;
   top: 10px;
@@ -209,7 +210,7 @@ header .main-menu .item:hover .item__contents {
   display: block;
 }
 header .main-menu .item .item__contents .contents__menu {
-  background-image: url("/images/main_png.jpg");
+  background-color: gray;
 
 }
 header .main-menu .item .item__contents .contents__menu > ul {
@@ -290,7 +291,13 @@ header .badges .badge {
 .visual .cup1.image {
   position: absolute;
   bottom: 0;
-  right: -200px;
+  right: 600px;
+  transition: all 0.5s linear;
+
+}
+
+.cup1:hover {
+  transform: translateX( 70px )
 }
 .visual .cup1.text {
   position: absolute;
